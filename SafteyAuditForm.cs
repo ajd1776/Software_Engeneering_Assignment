@@ -37,10 +37,6 @@ namespace SE_WindowsFormsApp
 
         }
 
-        private void label32_Click(object sender, EventArgs e)
-        {
-
-        }
         private void numericUpDownA1_ValueChanged(object sender, EventArgs e)
         {
 

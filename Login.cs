@@ -17,8 +17,22 @@ namespace SE_WindowsFormsApp
             InitializeComponent();
         }
 
+        // Handles login
         private void login_button_Click(object sender, EventArgs e)
         {
+            // Correct credentials
+            if (tbx_username.Text == "u" && tbx_password.Text == "p")
+            {
+                this.Hide();
+                Form2 f2 = new Form2();
+                f2.Show();
+            }
+            // Incorrect credentials
+            else
+            {
+                // Error message displayed in red under tbx_password in Login window
+                lbl_login_error.Text = "Incorrect credentials provided";
+            }
 
         }
 
@@ -28,16 +42,6 @@ namespace SE_WindowsFormsApp
         }
 
         private void Text_Password_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
         {
 
         }

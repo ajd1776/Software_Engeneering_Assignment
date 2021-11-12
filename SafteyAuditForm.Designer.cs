@@ -255,6 +255,7 @@ namespace SE_WindowsFormsApp
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownG2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownG3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownG1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -417,7 +418,7 @@ namespace SE_WindowsFormsApp
             this.tabControl1.Location = new System.Drawing.Point(15, 153);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(669, 300);
+            this.tabControl1.Size = new System.Drawing.Size(669, 269);
             this.tabControl1.TabIndex = 36;
             // 
             // tabPage1
@@ -454,7 +455,7 @@ namespace SE_WindowsFormsApp
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(661, 274);
+            this.tabPage1.Size = new System.Drawing.Size(661, 243);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "A. Working Standards";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -463,7 +464,7 @@ namespace SE_WindowsFormsApp
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(427, 214);
+            this.checkBox5.Location = new System.Drawing.Point(427, 207);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(15, 14);
             this.checkBox5.TabIndex = 65;
@@ -472,7 +473,7 @@ namespace SE_WindowsFormsApp
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(427, 175);
+            this.checkBox4.Location = new System.Drawing.Point(427, 168);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(15, 14);
             this.checkBox4.TabIndex = 64;
@@ -498,42 +499,42 @@ namespace SE_WindowsFormsApp
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(490, 214);
+            this.textBox16.Location = new System.Drawing.Point(490, 207);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(165, 20);
             this.textBox16.TabIndex = 61;
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(221, 214);
+            this.textBox17.Location = new System.Drawing.Point(221, 207);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(189, 20);
             this.textBox17.TabIndex = 60;
             // 
             // numericUpDownA5
             // 
-            this.numericUpDownA5.Location = new System.Drawing.Point(136, 214);
+            this.numericUpDownA5.Location = new System.Drawing.Point(136, 207);
             this.numericUpDownA5.Name = "numericUpDownA5";
             this.numericUpDownA5.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownA5.TabIndex = 59;
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(490, 175);
+            this.textBox14.Location = new System.Drawing.Point(490, 168);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(165, 20);
             this.textBox14.TabIndex = 58;
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(221, 175);
+            this.textBox15.Location = new System.Drawing.Point(221, 168);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(189, 20);
             this.textBox15.TabIndex = 57;
             // 
             // numericUpDownA4
             // 
-            this.numericUpDownA4.Location = new System.Drawing.Point(136, 175);
+            this.numericUpDownA4.Location = new System.Drawing.Point(136, 168);
             this.numericUpDownA4.Name = "numericUpDownA4";
             this.numericUpDownA4.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownA4.TabIndex = 56;
@@ -583,7 +584,7 @@ namespace SE_WindowsFormsApp
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(2, 217);
+            this.label6.Location = new System.Drawing.Point(2, 210);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 13);
             this.label6.TabIndex = 49;
@@ -592,7 +593,7 @@ namespace SE_WindowsFormsApp
             // lbl_A4
             // 
             this.lbl_A4.AutoSize = true;
-            this.lbl_A4.Location = new System.Drawing.Point(2, 178);
+            this.lbl_A4.Location = new System.Drawing.Point(2, 171);
             this.lbl_A4.Name = "lbl_A4";
             this.lbl_A4.Size = new System.Drawing.Size(112, 13);
             this.lbl_A4.TabIndex = 48;
@@ -716,7 +717,7 @@ namespace SE_WindowsFormsApp
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(661, 274);
+            this.tabPage2.Size = new System.Drawing.Size(661, 243);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "B. Quality";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -742,7 +743,7 @@ namespace SE_WindowsFormsApp
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(427, 122);
+            this.checkBox8.Location = new System.Drawing.Point(427, 116);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(15, 14);
             this.checkBox8.TabIndex = 92;
@@ -825,7 +826,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(490, 122);
+            this.textBox22.Location = new System.Drawing.Point(490, 116);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(165, 20);
             this.textBox22.TabIndex = 84;
@@ -833,7 +834,7 @@ namespace SE_WindowsFormsApp
             // lbl_B3
             // 
             this.lbl_B3.AutoSize = true;
-            this.lbl_B3.Location = new System.Drawing.Point(2, 122);
+            this.lbl_B3.Location = new System.Drawing.Point(2, 116);
             this.lbl_B3.Name = "lbl_B3";
             this.lbl_B3.Size = new System.Drawing.Size(106, 52);
             this.lbl_B3.TabIndex = 76;
@@ -841,14 +842,14 @@ namespace SE_WindowsFormsApp
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(221, 122);
+            this.textBox23.Location = new System.Drawing.Point(221, 116);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(189, 20);
             this.textBox23.TabIndex = 83;
             // 
             // numericUpDownB3
             // 
-            this.numericUpDownB3.Location = new System.Drawing.Point(136, 122);
+            this.numericUpDownB3.Location = new System.Drawing.Point(136, 116);
             this.numericUpDownB3.Name = "numericUpDownB3";
             this.numericUpDownB3.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownB3.TabIndex = 82;
@@ -903,7 +904,7 @@ namespace SE_WindowsFormsApp
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(661, 274);
+            this.tabPage3.Size = new System.Drawing.Size(661, 243);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "C. Site Rules";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -920,7 +921,7 @@ namespace SE_WindowsFormsApp
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(427, 175);
+            this.checkBox7.Location = new System.Drawing.Point(427, 139);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(15, 14);
             this.checkBox7.TabIndex = 93;
@@ -938,7 +939,7 @@ namespace SE_WindowsFormsApp
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(427, 122);
+            this.checkBox11.Location = new System.Drawing.Point(427, 102);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(15, 14);
             this.checkBox11.TabIndex = 92;
@@ -996,7 +997,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(490, 175);
+            this.textBox20.Location = new System.Drawing.Point(490, 139);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(165, 20);
             this.textBox20.TabIndex = 87;
@@ -1010,7 +1011,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(221, 175);
+            this.textBox21.Location = new System.Drawing.Point(221, 139);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(189, 20);
             this.textBox21.TabIndex = 86;
@@ -1026,7 +1027,7 @@ namespace SE_WindowsFormsApp
             // 
             // numericUpDownC4
             // 
-            this.numericUpDownC4.Location = new System.Drawing.Point(136, 175);
+            this.numericUpDownC4.Location = new System.Drawing.Point(136, 139);
             this.numericUpDownC4.Name = "numericUpDownC4";
             this.numericUpDownC4.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownC4.TabIndex = 85;
@@ -1042,7 +1043,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox28
             // 
-            this.textBox28.Location = new System.Drawing.Point(490, 122);
+            this.textBox28.Location = new System.Drawing.Point(490, 102);
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(165, 20);
             this.textBox28.TabIndex = 84;
@@ -1050,7 +1051,7 @@ namespace SE_WindowsFormsApp
             // lbl_C3
             // 
             this.lbl_C3.AutoSize = true;
-            this.lbl_C3.Location = new System.Drawing.Point(2, 122);
+            this.lbl_C3.Location = new System.Drawing.Point(2, 102);
             this.lbl_C3.Name = "lbl_C3";
             this.lbl_C3.Size = new System.Drawing.Size(112, 26);
             this.lbl_C3.TabIndex = 76;
@@ -1058,7 +1059,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox29
             // 
-            this.textBox29.Location = new System.Drawing.Point(221, 122);
+            this.textBox29.Location = new System.Drawing.Point(221, 102);
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(189, 20);
             this.textBox29.TabIndex = 83;
@@ -1066,7 +1067,7 @@ namespace SE_WindowsFormsApp
             // lbl_C4
             // 
             this.lbl_C4.AutoSize = true;
-            this.lbl_C4.Location = new System.Drawing.Point(3, 175);
+            this.lbl_C4.Location = new System.Drawing.Point(3, 139);
             this.lbl_C4.Name = "lbl_C4";
             this.lbl_C4.Size = new System.Drawing.Size(111, 26);
             this.lbl_C4.TabIndex = 77;
@@ -1074,7 +1075,7 @@ namespace SE_WindowsFormsApp
             // 
             // numericUpDownC3
             // 
-            this.numericUpDownC3.Location = new System.Drawing.Point(136, 122);
+            this.numericUpDownC3.Location = new System.Drawing.Point(136, 102);
             this.numericUpDownC3.Name = "numericUpDownC3";
             this.numericUpDownC3.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownC3.TabIndex = 82;
@@ -1124,7 +1125,7 @@ namespace SE_WindowsFormsApp
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(661, 274);
+            this.tabPage4.Size = new System.Drawing.Size(661, 243);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "D. Environmental";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1132,7 +1133,7 @@ namespace SE_WindowsFormsApp
             // checkBox15
             // 
             this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(427, 122);
+            this.checkBox15.Location = new System.Drawing.Point(427, 104);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(15, 14);
             this.checkBox15.TabIndex = 92;
@@ -1149,21 +1150,21 @@ namespace SE_WindowsFormsApp
             // 
             // textBox36
             // 
-            this.textBox36.Location = new System.Drawing.Point(490, 122);
+            this.textBox36.Location = new System.Drawing.Point(490, 104);
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(165, 20);
             this.textBox36.TabIndex = 84;
             // 
             // textBox37
             // 
-            this.textBox37.Location = new System.Drawing.Point(221, 122);
+            this.textBox37.Location = new System.Drawing.Point(221, 104);
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(189, 20);
             this.textBox37.TabIndex = 83;
             // 
             // numericUpDownD3
             // 
-            this.numericUpDownD3.Location = new System.Drawing.Point(136, 122);
+            this.numericUpDownD3.Location = new System.Drawing.Point(136, 104);
             this.numericUpDownD3.Name = "numericUpDownD3";
             this.numericUpDownD3.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownD3.TabIndex = 82;
@@ -1192,7 +1193,7 @@ namespace SE_WindowsFormsApp
             // lbl_D3
             // 
             this.lbl_D3.AutoSize = true;
-            this.lbl_D3.Location = new System.Drawing.Point(2, 122);
+            this.lbl_D3.Location = new System.Drawing.Point(2, 104);
             this.lbl_D3.Name = "lbl_D3";
             this.lbl_D3.Size = new System.Drawing.Size(112, 13);
             this.lbl_D3.TabIndex = 76;
@@ -1306,7 +1307,7 @@ namespace SE_WindowsFormsApp
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(661, 274);
+            this.tabPage5.Size = new System.Drawing.Size(661, 243);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "E. Protection Of Individuals";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1314,7 +1315,7 @@ namespace SE_WindowsFormsApp
             // checkBox18
             // 
             this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(427, 122);
+            this.checkBox18.Location = new System.Drawing.Point(427, 104);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(15, 14);
             this.checkBox18.TabIndex = 92;
@@ -1331,21 +1332,21 @@ namespace SE_WindowsFormsApp
             // 
             // textBox42
             // 
-            this.textBox42.Location = new System.Drawing.Point(490, 122);
+            this.textBox42.Location = new System.Drawing.Point(490, 104);
             this.textBox42.Name = "textBox42";
             this.textBox42.Size = new System.Drawing.Size(165, 20);
             this.textBox42.TabIndex = 84;
             // 
             // textBox43
             // 
-            this.textBox43.Location = new System.Drawing.Point(221, 122);
+            this.textBox43.Location = new System.Drawing.Point(221, 104);
             this.textBox43.Name = "textBox43";
             this.textBox43.Size = new System.Drawing.Size(189, 20);
             this.textBox43.TabIndex = 83;
             // 
             // numericUpDownE3
             // 
-            this.numericUpDownE3.Location = new System.Drawing.Point(136, 122);
+            this.numericUpDownE3.Location = new System.Drawing.Point(136, 104);
             this.numericUpDownE3.Name = "numericUpDownE3";
             this.numericUpDownE3.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownE3.TabIndex = 82;
@@ -1374,7 +1375,7 @@ namespace SE_WindowsFormsApp
             // lbl_E3
             // 
             this.lbl_E3.AutoSize = true;
-            this.lbl_E3.Location = new System.Drawing.Point(2, 122);
+            this.lbl_E3.Location = new System.Drawing.Point(2, 104);
             this.lbl_E3.Name = "lbl_E3";
             this.lbl_E3.Size = new System.Drawing.Size(90, 13);
             this.lbl_E3.TabIndex = 76;
@@ -1488,7 +1489,7 @@ namespace SE_WindowsFormsApp
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(661, 274);
+            this.tabPage6.Size = new System.Drawing.Size(661, 243);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "F. Equipment";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1514,7 +1515,7 @@ namespace SE_WindowsFormsApp
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(427, 122);
+            this.checkBox6.Location = new System.Drawing.Point(427, 104);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(15, 14);
             this.checkBox6.TabIndex = 111;
@@ -1597,7 +1598,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox34
             // 
-            this.textBox34.Location = new System.Drawing.Point(490, 122);
+            this.textBox34.Location = new System.Drawing.Point(490, 104);
             this.textBox34.Name = "textBox34";
             this.textBox34.Size = new System.Drawing.Size(165, 20);
             this.textBox34.TabIndex = 109;
@@ -1605,7 +1606,7 @@ namespace SE_WindowsFormsApp
             // lbl_F3
             // 
             this.lbl_F3.AutoSize = true;
-            this.lbl_F3.Location = new System.Drawing.Point(2, 122);
+            this.lbl_F3.Location = new System.Drawing.Point(2, 104);
             this.lbl_F3.Name = "lbl_F3";
             this.lbl_F3.Size = new System.Drawing.Size(93, 26);
             this.lbl_F3.TabIndex = 103;
@@ -1613,14 +1614,14 @@ namespace SE_WindowsFormsApp
             // 
             // textBox35
             // 
-            this.textBox35.Location = new System.Drawing.Point(221, 122);
+            this.textBox35.Location = new System.Drawing.Point(221, 104);
             this.textBox35.Name = "textBox35";
             this.textBox35.Size = new System.Drawing.Size(189, 20);
             this.textBox35.TabIndex = 108;
             // 
             // numericUpDownF3
             // 
-            this.numericUpDownF3.Location = new System.Drawing.Point(136, 122);
+            this.numericUpDownF3.Location = new System.Drawing.Point(136, 104);
             this.numericUpDownF3.Name = "numericUpDownF3";
             this.numericUpDownF3.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownF3.TabIndex = 107;
@@ -1670,7 +1671,7 @@ namespace SE_WindowsFormsApp
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(661, 274);
+            this.tabPage7.Size = new System.Drawing.Size(661, 243);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "G. Miscellaneous";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1703,7 +1704,7 @@ namespace SE_WindowsFormsApp
             // checkBox22
             // 
             this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(427, 122);
+            this.checkBox22.Location = new System.Drawing.Point(427, 104);
             this.checkBox22.Name = "checkBox22";
             this.checkBox22.Size = new System.Drawing.Size(15, 14);
             this.checkBox22.TabIndex = 111;
@@ -1743,7 +1744,7 @@ namespace SE_WindowsFormsApp
             // 
             // numericUpDownG3
             // 
-            this.numericUpDownG3.Location = new System.Drawing.Point(136, 122);
+            this.numericUpDownG3.Location = new System.Drawing.Point(136, 104);
             this.numericUpDownG3.Name = "numericUpDownG3";
             this.numericUpDownG3.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownG3.TabIndex = 107;
@@ -1759,7 +1760,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox53
             // 
-            this.textBox53.Location = new System.Drawing.Point(221, 122);
+            this.textBox53.Location = new System.Drawing.Point(221, 104);
             this.textBox53.Name = "textBox53";
             this.textBox53.Size = new System.Drawing.Size(189, 20);
             this.textBox53.TabIndex = 108;
@@ -1774,7 +1775,7 @@ namespace SE_WindowsFormsApp
             // lbl_G3
             // 
             this.lbl_G3.AutoSize = true;
-            this.lbl_G3.Location = new System.Drawing.Point(2, 122);
+            this.lbl_G3.Location = new System.Drawing.Point(2, 104);
             this.lbl_G3.Name = "lbl_G3";
             this.lbl_G3.Size = new System.Drawing.Size(108, 13);
             this.lbl_G3.TabIndex = 103;
@@ -1789,7 +1790,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox52
             // 
-            this.textBox52.Location = new System.Drawing.Point(490, 122);
+            this.textBox52.Location = new System.Drawing.Point(490, 104);
             this.textBox52.Name = "textBox52";
             this.textBox52.Size = new System.Drawing.Size(165, 20);
             this.textBox52.TabIndex = 109;
@@ -1827,11 +1828,10 @@ namespace SE_WindowsFormsApp
             this.lbl_G1.Size = new System.Drawing.Size(94, 13);
             this.lbl_G1.TabIndex = 101;
             this.lbl_G1.Text = "Company Vehicles";
-            this.lbl_G1.Click += new System.EventHandler(this.label32_Click);
             // 
             // btn_save
             // 
-            this.btn_save.Location = new System.Drawing.Point(605, 459);
+            this.btn_save.Location = new System.Drawing.Point(605, 428);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(75, 23);
             this.btn_save.TabIndex = 37;
@@ -1842,9 +1842,9 @@ namespace SE_WindowsFormsApp
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label32.BackColor = System.Drawing.Color.White;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(15, 487);
+            this.label32.Location = new System.Drawing.Point(3, 3);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(220, 20);
             this.label32.TabIndex = 38;
@@ -1853,8 +1853,8 @@ namespace SE_WindowsFormsApp
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label33.Location = new System.Drawing.Point(19, 522);
+            this.label33.BackColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(19, 468);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(111, 13);
             this.label33.TabIndex = 39;
@@ -1863,8 +1863,8 @@ namespace SE_WindowsFormsApp
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label34.Location = new System.Drawing.Point(19, 542);
+            this.label34.BackColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(19, 488);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(52, 13);
             this.label34.TabIndex = 40;
@@ -1873,8 +1873,8 @@ namespace SE_WindowsFormsApp
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label35.Location = new System.Drawing.Point(19, 562);
+            this.label35.BackColor = System.Drawing.Color.White;
+            this.label35.Location = new System.Drawing.Point(19, 508);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(68, 13);
             this.label35.TabIndex = 41;
@@ -1883,8 +1883,8 @@ namespace SE_WindowsFormsApp
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label36.Location = new System.Drawing.Point(19, 582);
+            this.label36.BackColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(19, 528);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(88, 13);
             this.label36.TabIndex = 42;
@@ -1893,8 +1893,8 @@ namespace SE_WindowsFormsApp
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label37.Location = new System.Drawing.Point(19, 602);
+            this.label37.BackColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(19, 548);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(135, 13);
             this.label37.TabIndex = 43;
@@ -1903,8 +1903,8 @@ namespace SE_WindowsFormsApp
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label38.Location = new System.Drawing.Point(19, 622);
+            this.label38.BackColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(19, 568);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(69, 13);
             this.label38.TabIndex = 44;
@@ -1913,8 +1913,8 @@ namespace SE_WindowsFormsApp
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label39.Location = new System.Drawing.Point(19, 642);
+            this.label39.BackColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(19, 588);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(88, 13);
             this.label39.TabIndex = 45;
@@ -1923,8 +1923,8 @@ namespace SE_WindowsFormsApp
             // lbl_A_total
             // 
             this.lbl_A_total.AutoSize = true;
-            this.lbl_A_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_A_total.Location = new System.Drawing.Point(202, 522);
+            this.lbl_A_total.BackColor = System.Drawing.Color.White;
+            this.lbl_A_total.Location = new System.Drawing.Point(202, 468);
             this.lbl_A_total.Name = "lbl_A_total";
             this.lbl_A_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_A_total.TabIndex = 46;
@@ -1933,8 +1933,8 @@ namespace SE_WindowsFormsApp
             // lbl_B_total
             // 
             this.lbl_B_total.AutoSize = true;
-            this.lbl_B_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_B_total.Location = new System.Drawing.Point(202, 542);
+            this.lbl_B_total.BackColor = System.Drawing.Color.White;
+            this.lbl_B_total.Location = new System.Drawing.Point(202, 488);
             this.lbl_B_total.Name = "lbl_B_total";
             this.lbl_B_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_B_total.TabIndex = 47;
@@ -1943,8 +1943,8 @@ namespace SE_WindowsFormsApp
             // lbl_C_total
             // 
             this.lbl_C_total.AutoSize = true;
-            this.lbl_C_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_C_total.Location = new System.Drawing.Point(202, 562);
+            this.lbl_C_total.BackColor = System.Drawing.Color.White;
+            this.lbl_C_total.Location = new System.Drawing.Point(202, 508);
             this.lbl_C_total.Name = "lbl_C_total";
             this.lbl_C_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_C_total.TabIndex = 48;
@@ -1953,8 +1953,8 @@ namespace SE_WindowsFormsApp
             // lbl_D_total
             // 
             this.lbl_D_total.AutoSize = true;
-            this.lbl_D_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_D_total.Location = new System.Drawing.Point(202, 582);
+            this.lbl_D_total.BackColor = System.Drawing.Color.White;
+            this.lbl_D_total.Location = new System.Drawing.Point(202, 528);
             this.lbl_D_total.Name = "lbl_D_total";
             this.lbl_D_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_D_total.TabIndex = 49;
@@ -1963,8 +1963,8 @@ namespace SE_WindowsFormsApp
             // lbl_E_total
             // 
             this.lbl_E_total.AutoSize = true;
-            this.lbl_E_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_E_total.Location = new System.Drawing.Point(202, 602);
+            this.lbl_E_total.BackColor = System.Drawing.Color.White;
+            this.lbl_E_total.Location = new System.Drawing.Point(202, 548);
             this.lbl_E_total.Name = "lbl_E_total";
             this.lbl_E_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_E_total.TabIndex = 50;
@@ -1973,8 +1973,8 @@ namespace SE_WindowsFormsApp
             // lbl_F_total
             // 
             this.lbl_F_total.AutoSize = true;
-            this.lbl_F_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_F_total.Location = new System.Drawing.Point(202, 622);
+            this.lbl_F_total.BackColor = System.Drawing.Color.White;
+            this.lbl_F_total.Location = new System.Drawing.Point(202, 568);
             this.lbl_F_total.Name = "lbl_F_total";
             this.lbl_F_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_F_total.TabIndex = 51;
@@ -1983,8 +1983,8 @@ namespace SE_WindowsFormsApp
             // lbl_G_total
             // 
             this.lbl_G_total.AutoSize = true;
-            this.lbl_G_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lbl_G_total.Location = new System.Drawing.Point(202, 642);
+            this.lbl_G_total.BackColor = System.Drawing.Color.White;
+            this.lbl_G_total.Location = new System.Drawing.Point(202, 588);
             this.lbl_G_total.Name = "lbl_G_total";
             this.lbl_G_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_G_total.TabIndex = 52;
@@ -1993,9 +1993,9 @@ namespace SE_WindowsFormsApp
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label40.BackColor = System.Drawing.Color.White;
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(19, 668);
+            this.label40.Location = new System.Drawing.Point(19, 614);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(40, 17);
             this.label40.TabIndex = 53;
@@ -2004,9 +2004,9 @@ namespace SE_WindowsFormsApp
             // lbl_total
             // 
             this.lbl_total.AutoSize = true;
-            this.lbl_total.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lbl_total.BackColor = System.Drawing.Color.White;
             this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.Location = new System.Drawing.Point(202, 668);
+            this.lbl_total.Location = new System.Drawing.Point(202, 614);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(16, 17);
             this.lbl_total.TabIndex = 54;
@@ -2014,8 +2014,9 @@ namespace SE_WindowsFormsApp
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Location = new System.Drawing.Point(15, 482);
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label32);
+            this.panel1.Location = new System.Drawing.Point(15, 428);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(226, 215);
             this.panel1.TabIndex = 55;
@@ -2041,7 +2042,6 @@ namespace SE_WindowsFormsApp
             this.Controls.Add(this.label35);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.label33);
-            this.Controls.Add(this.label32);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.numericUpDown5);
@@ -2105,6 +2105,8 @@ namespace SE_WindowsFormsApp
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownG2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownG3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownG1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

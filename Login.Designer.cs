@@ -35,12 +35,13 @@ namespace SE_WindowsFormsApp
             this.lbl_login = new System.Windows.Forms.Label();
             this.lbl_sername = new System.Windows.Forms.Label();
             this.lbl_assword = new System.Windows.Forms.Label();
+            this.lbl_login_error = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_login
             // 
             this.btn_login.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btn_login.Location = new System.Drawing.Point(101, 110);
+            this.btn_login.Location = new System.Drawing.Point(76, 113);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(75, 23);
             this.btn_login.TabIndex = 0;
@@ -69,12 +70,12 @@ namespace SE_WindowsFormsApp
             // lbl_login
             // 
             this.lbl_login.AutoSize = true;
-            this.lbl_login.Location = new System.Drawing.Point(64, 13);
+            this.lbl_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_login.Location = new System.Drawing.Point(14, 9);
             this.lbl_login.Name = "lbl_login";
-            this.lbl_login.Size = new System.Drawing.Size(145, 13);
+            this.lbl_login.Size = new System.Drawing.Size(216, 20);
             this.lbl_login.TabIndex = 3;
             this.lbl_login.Text = "Please enter login credentials";
-            this.lbl_login.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbl_sername
             // 
@@ -93,7 +94,15 @@ namespace SE_WindowsFormsApp
             this.lbl_assword.Size = new System.Drawing.Size(53, 13);
             this.lbl_assword.TabIndex = 5;
             this.lbl_assword.Text = "Password";
-            this.lbl_assword.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // lbl_login_error
+            // 
+            this.lbl_login_error.AutoSize = true;
+            this.lbl_login_error.ForeColor = System.Drawing.Color.Red;
+            this.lbl_login_error.Location = new System.Drawing.Point(73, 97);
+            this.lbl_login_error.Name = "lbl_login_error";
+            this.lbl_login_error.Size = new System.Drawing.Size(0, 13);
+            this.lbl_login_error.TabIndex = 6;
             // 
             // Login
             // 
@@ -101,6 +110,7 @@ namespace SE_WindowsFormsApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(239, 166);
+            this.Controls.Add(this.lbl_login_error);
             this.Controls.Add(this.lbl_assword);
             this.Controls.Add(this.lbl_sername);
             this.Controls.Add(this.lbl_login);
@@ -122,6 +132,7 @@ namespace SE_WindowsFormsApp
         private System.Windows.Forms.Label lbl_login;
         private System.Windows.Forms.Label lbl_sername;
         private System.Windows.Forms.Label lbl_assword;
+        private System.Windows.Forms.Label lbl_login_error;
     }
 }
 
