@@ -56,7 +56,6 @@ namespace SE_WindowsFormsApp
             this.tbx_username.Size = new System.Drawing.Size(119, 20);
             this.tbx_username.TabIndex = 1;
             this.tbx_username.Tag = "";
-            this.tbx_username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tbx_password
             // 
@@ -65,7 +64,6 @@ namespace SE_WindowsFormsApp
             this.tbx_password.PasswordChar = '*';
             this.tbx_password.Size = new System.Drawing.Size(119, 20);
             this.tbx_password.TabIndex = 2;
-            this.tbx_password.TextChanged += new System.EventHandler(this.Text_Password_TextChanged);
             // 
             // lbl_login
             // 

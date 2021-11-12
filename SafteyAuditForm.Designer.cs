@@ -1,7 +1,7 @@
 ﻿
 namespace SE_WindowsFormsApp
 {
-    partial class Form2
+    partial class SafteyAuditForm
     {
         /// <summary>
         /// Required designer variable.
@@ -267,7 +267,6 @@ namespace SE_WindowsFormsApp
             this.label1.Size = new System.Drawing.Size(505, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Health, Saftey, Quality and Environmental Site Inspection";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -284,7 +283,6 @@ namespace SE_WindowsFormsApp
             this.lbl_site.Size = new System.Drawing.Size(25, 13);
             this.lbl_site.TabIndex = 2;
             this.lbl_site.Text = "Site";
-            this.lbl_site.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbl_work_area
             // 
@@ -397,7 +395,6 @@ namespace SE_WindowsFormsApp
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
             this.dateTimePicker1.TabIndex = 17;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // numericUpDown5
             // 
@@ -459,7 +456,6 @@ namespace SE_WindowsFormsApp
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "A. Working Standards";
             this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // checkBox5
             // 
@@ -655,7 +651,6 @@ namespace SE_WindowsFormsApp
             this.numericUpDownA1.Name = "numericUpDownA1";
             this.numericUpDownA1.Size = new System.Drawing.Size(38, 20);
             this.numericUpDownA1.TabIndex = 37;
-            this.numericUpDownA1.ValueChanged += new System.EventHandler(this.numericUpDownA1_ValueChanged);
             // 
             // checkBox2
             // 
@@ -2021,11 +2016,11 @@ namespace SE_WindowsFormsApp
             this.panel1.Size = new System.Drawing.Size(226, 215);
             this.panel1.TabIndex = 55;
             // 
-            // Form2
+            // SafteyAuditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(704, 718);
+            this.ClientSize = new System.Drawing.Size(697, 718);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.lbl_G_total);
@@ -2063,7 +2058,7 @@ namespace SE_WindowsFormsApp
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form2";
+            this.Name = "SafteyAuditForm";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             this.tabControl1.ResumeLayout(false);

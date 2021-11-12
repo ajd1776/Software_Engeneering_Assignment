@@ -10,36 +10,11 @@ using System.Windows.Forms;
 
 namespace SE_WindowsFormsApp
 {
-    public partial class Form2 : Form
+    public partial class SafteyAuditForm : Form
     {
-        public Form2()
+        public SafteyAuditForm()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numericUpDownA1_ValueChanged(object sender, EventArgs e)
-        {
-
         }
 
         // Counts number of interventions per section and then displays the total
@@ -70,7 +45,6 @@ namespace SE_WindowsFormsApp
 
             decimal total_count = A_count + B_count + C_count + D_count + E_count + F_count + G_count;
             lbl_total.Text = total_count.ToString();
-
         }
 
         // Display is updated when user clicks button

@@ -12,10 +12,12 @@ namespace SE_WindowsFormsApp
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Display login window first   
             Application.Run(new Login());
         }
     }
