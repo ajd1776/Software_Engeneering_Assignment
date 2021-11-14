@@ -30,22 +30,22 @@ namespace SE_WindowsFormsApp
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbx_site = new System.Windows.Forms.TextBox();
             this.lbl_site = new System.Windows.Forms.Label();
             this.lbl_work_area = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbx_work_area = new System.Windows.Forms.TextBox();
             this.lbl_type = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbx_type = new System.Windows.Forms.TextBox();
             this.lbl_supervisor = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tbx_supervisor = new System.Windows.Forms.TextBox();
             this.lbl_date = new System.Windows.Forms.Label();
             this.lbl_inspector = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tbx_inspector = new System.Windows.Forms.TextBox();
             this.lbl_job_description = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tbx_job_description = new System.Windows.Forms.TextBox();
             this.lbl_completed_by = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.tbx_completed_by = new System.Windows.Forms.TextBox();
+            this.dtp_date = new System.Windows.Forms.DateTimePicker();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -268,12 +268,12 @@ namespace SE_WindowsFormsApp
             this.label1.TabIndex = 0;
             this.label1.Text = "Health, Saftey, Quality and Environmental Site Inspection";
             // 
-            // textBox1
+            // tbx_site
             // 
-            this.textBox1.Location = new System.Drawing.Point(75, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(162, 20);
-            this.textBox1.TabIndex = 1;
+            this.tbx_site.Location = new System.Drawing.Point(75, 48);
+            this.tbx_site.Name = "tbx_site";
+            this.tbx_site.Size = new System.Drawing.Size(162, 20);
+            this.tbx_site.TabIndex = 1;
             // 
             // lbl_site
             // 
@@ -293,12 +293,12 @@ namespace SE_WindowsFormsApp
             this.lbl_work_area.TabIndex = 4;
             this.lbl_work_area.Text = "Work Area";
             // 
-            // textBox2
+            // tbx_work_area
             // 
-            this.textBox2.Location = new System.Drawing.Point(75, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 20);
-            this.textBox2.TabIndex = 3;
+            this.tbx_work_area.Location = new System.Drawing.Point(75, 74);
+            this.tbx_work_area.Name = "tbx_work_area";
+            this.tbx_work_area.Size = new System.Drawing.Size(162, 20);
+            this.tbx_work_area.TabIndex = 3;
             // 
             // lbl_type
             // 
@@ -309,12 +309,12 @@ namespace SE_WindowsFormsApp
             this.lbl_type.TabIndex = 6;
             this.lbl_type.Text = "Type";
             // 
-            // textBox3
+            // tbx_type
             // 
-            this.textBox3.Location = new System.Drawing.Point(540, 100);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(140, 20);
-            this.textBox3.TabIndex = 5;
+            this.tbx_type.Location = new System.Drawing.Point(540, 100);
+            this.tbx_type.Name = "tbx_type";
+            this.tbx_type.Size = new System.Drawing.Size(140, 20);
+            this.tbx_type.TabIndex = 5;
             // 
             // lbl_supervisor
             // 
@@ -325,12 +325,12 @@ namespace SE_WindowsFormsApp
             this.lbl_supervisor.TabIndex = 8;
             this.lbl_supervisor.Text = "Supervisor";
             // 
-            // textBox4
+            // tbx_supervisor
             // 
-            this.textBox4.Location = new System.Drawing.Point(75, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(162, 20);
-            this.textBox4.TabIndex = 7;
+            this.tbx_supervisor.Location = new System.Drawing.Point(75, 100);
+            this.tbx_supervisor.Name = "tbx_supervisor";
+            this.tbx_supervisor.Size = new System.Drawing.Size(162, 20);
+            this.tbx_supervisor.TabIndex = 7;
             // 
             // lbl_date
             // 
@@ -350,12 +350,12 @@ namespace SE_WindowsFormsApp
             this.lbl_inspector.TabIndex = 16;
             this.lbl_inspector.Text = "Inspector";
             // 
-            // textBox6
+            // tbx_inspector
             // 
-            this.textBox6.Location = new System.Drawing.Point(331, 100);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(165, 20);
-            this.textBox6.TabIndex = 15;
+            this.tbx_inspector.Location = new System.Drawing.Point(331, 100);
+            this.tbx_inspector.Name = "tbx_inspector";
+            this.tbx_inspector.Size = new System.Drawing.Size(165, 20);
+            this.tbx_inspector.TabIndex = 15;
             // 
             // lbl_job_description
             // 
@@ -366,12 +366,12 @@ namespace SE_WindowsFormsApp
             this.lbl_job_description.TabIndex = 14;
             this.lbl_job_description.Text = "Job Description";
             // 
-            // textBox7
+            // tbx_job_description
             // 
-            this.textBox7.Location = new System.Drawing.Point(331, 74);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(349, 20);
-            this.textBox7.TabIndex = 13;
+            this.tbx_job_description.Location = new System.Drawing.Point(331, 74);
+            this.tbx_job_description.Name = "tbx_job_description";
+            this.tbx_job_description.Size = new System.Drawing.Size(349, 20);
+            this.tbx_job_description.TabIndex = 13;
             // 
             // lbl_completed_by
             // 
@@ -382,19 +382,19 @@ namespace SE_WindowsFormsApp
             this.lbl_completed_by.TabIndex = 12;
             this.lbl_completed_by.Text = "Completed By";
             // 
-            // textBox8
+            // tbx_completed_by
             // 
-            this.textBox8.Location = new System.Drawing.Point(331, 48);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(165, 20);
-            this.textBox8.TabIndex = 11;
+            this.tbx_completed_by.Location = new System.Drawing.Point(331, 48);
+            this.tbx_completed_by.Name = "tbx_completed_by";
+            this.tbx_completed_by.Size = new System.Drawing.Size(165, 20);
+            this.tbx_completed_by.TabIndex = 11;
             // 
-            // dateTimePicker1
+            // dtp_date
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(540, 48);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
-            this.dateTimePicker1.TabIndex = 17;
+            this.dtp_date.Location = new System.Drawing.Point(540, 48);
+            this.dtp_date.Name = "dtp_date";
+            this.dtp_date.Size = new System.Drawing.Size(140, 20);
+            this.dtp_date.TabIndex = 17;
             // 
             // numericUpDown5
             // 
@@ -2041,22 +2041,22 @@ namespace SE_WindowsFormsApp
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.numericUpDown5);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtp_date);
             this.Controls.Add(this.lbl_inspector);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.tbx_inspector);
             this.Controls.Add(this.lbl_job_description);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.tbx_job_description);
             this.Controls.Add(this.lbl_completed_by);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.tbx_completed_by);
             this.Controls.Add(this.lbl_date);
             this.Controls.Add(this.lbl_supervisor);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.tbx_supervisor);
             this.Controls.Add(this.lbl_type);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbx_type);
             this.Controls.Add(this.lbl_work_area);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbx_work_area);
             this.Controls.Add(this.lbl_site);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbx_site);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "SafteyAuditForm";
@@ -2111,22 +2111,22 @@ namespace SE_WindowsFormsApp
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbx_site;
         private System.Windows.Forms.Label lbl_site;
         private System.Windows.Forms.Label lbl_work_area;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbx_work_area;
         private System.Windows.Forms.Label lbl_type;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbx_type;
         private System.Windows.Forms.Label lbl_supervisor;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tbx_supervisor;
         private System.Windows.Forms.Label lbl_date;
         private System.Windows.Forms.Label lbl_inspector;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tbx_inspector;
         private System.Windows.Forms.Label lbl_job_description;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox tbx_job_description;
         private System.Windows.Forms.Label lbl_completed_by;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox tbx_completed_by;
+        private System.Windows.Forms.DateTimePicker dtp_date;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;

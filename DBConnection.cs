@@ -11,14 +11,17 @@ namespace SE_WindowsFormsApp
 {
     class DBConnection
     {
-        //private object of the class itself
+        // Private object of the class itself
         private static DBConnection _instance;
 
-        //connection string
+        // Connection string
         private static string connStr;
 
-        //connection to the DB
+        // Connection to the DB
         private SqlConnection connToDB;
+
+        // Paramitised string for sql query
+        string sql = null;
 
         /// <summary>
         /// constructor
@@ -36,7 +39,7 @@ namespace SE_WindowsFormsApp
          */
         public static DBConnection getInstanceOfDBConnection()
         {
-            // create the object only if it doesn't exist  
+            // Create the object only if it doesn't exist  
             if (_instance == null)
                 _instance = new DBConnection();
             return _instance;
@@ -70,24 +73,38 @@ namespace SE_WindowsFormsApp
         /**
          * Method that saves data into the database
          */
-        public void saveToDB(string sqlQuery, string name, int age)
+        public void saveToDB(string sqlQuery, 
+                             string site, 
+                             string work_area, 
+                             string supervisor, 
+                             string completed_by, 
+                             string job_description, 
+                             string inspector, 
+                             string date, 
+                             string type)
         {
             using (SqlConnection connToDB = new SqlConnection(connStr))
             {
-                //open connection
+                // Open connection
                 // ADD ERROR CATCH  
                 connToDB.Open();
 
                 SqlCommand sqlCommand = new SqlCommand(sqlQuery, connToDB);
 
-                //set the sqlCommand's properties
+                // Set the sqlCommand's properties
                 sqlCommand.CommandType = CommandType.Text;
 
                 //add the parameters to the sqlCommand
-                sqlCommand.Parameters.Add(new SqlParameter("Name", name));
-                sqlCommand.Parameters.Add(new SqlParameter("Age", age));
+                sqlCommand.Parameters.Add(new SqlParameter("site", site));
+                sqlCommand.Parameters.Add(new SqlParameter("work_area", work_area));
+                sqlCommand.Parameters.Add(new SqlParameter("supervisor", supervisor));
+                sqlCommand.Parameters.Add(new SqlParameter("completed_by", completed_by));
+                sqlCommand.Parameters.Add(new SqlParameter("job_description", job_description));
+                sqlCommand.Parameters.Add(new SqlParameter("inspector", inspector));
+                sqlCommand.Parameters.Add(new SqlParameter("date", date));
+                sqlCommand.Parameters.Add(new SqlParameter("type", type));
 
-                //execute the command
+                // Execute the save command
                 sqlCommand.ExecuteNonQuery();
 
                 connToDB.Close();   

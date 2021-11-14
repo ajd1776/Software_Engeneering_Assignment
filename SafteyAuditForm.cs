@@ -12,9 +12,12 @@ namespace SE_WindowsFormsApp
 {
     public partial class SafteyAuditForm : Form
     {
+        private DBConnection dbConn;
         public SafteyAuditForm()
         {
             InitializeComponent();
+            dbConn = DBConnection.getInstanceOfDBConnection();
+
         }
 
         // Counts number of interventions per section and then displays the total
@@ -47,10 +50,18 @@ namespace SE_WindowsFormsApp
             lbl_total.Text = total_count.ToString();
         }
 
-        // Display is updated when user clicks save button
         private void button1_Click(object sender, EventArgs e)
         {
+            // Update total intervention display
             total_interventions();
+
+            // SAVING FORM DATA TO DATABASE
+            // SQL statement used to pass as a parameter
+            string sql;
+            sql = "INSERT INTO FormData ([site], [work_area], [supervisor], [completed_by], [job_description], [inspector], [date], [type]) VALUES (@site, @work_area, @supervisor, @completed_by, @job_description, @inspector, @date, @type)";
+
+            // Get data from fields in SafteyAuditForm and save to database
+            dbConn.saveToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text);
         }
 
     }
