@@ -47,7 +47,7 @@ namespace SE_WindowsFormsApp
             lbl_total.Text = total_count.ToString();
         }
 
-        // Display is updated when user clicks button
+        // Display is updated when user clicks save button
         private void button1_Click(object sender, EventArgs e)
         {
             total_interventions();

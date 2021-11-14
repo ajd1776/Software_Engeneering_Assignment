@@ -270,7 +270,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 50);
+            this.textBox1.Location = new System.Drawing.Point(75, 48);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(162, 20);
             this.textBox1.TabIndex = 1;
@@ -278,7 +278,7 @@ namespace SE_WindowsFormsApp
             // lbl_site
             // 
             this.lbl_site.AutoSize = true;
-            this.lbl_site.Location = new System.Drawing.Point(48, 53);
+            this.lbl_site.Location = new System.Drawing.Point(44, 51);
             this.lbl_site.Name = "lbl_site";
             this.lbl_site.Size = new System.Drawing.Size(25, 13);
             this.lbl_site.TabIndex = 2;
@@ -287,7 +287,7 @@ namespace SE_WindowsFormsApp
             // lbl_work_area
             // 
             this.lbl_work_area.AutoSize = true;
-            this.lbl_work_area.Location = new System.Drawing.Point(15, 79);
+            this.lbl_work_area.Location = new System.Drawing.Point(11, 77);
             this.lbl_work_area.Name = "lbl_work_area";
             this.lbl_work_area.Size = new System.Drawing.Size(58, 13);
             this.lbl_work_area.TabIndex = 4;
@@ -295,7 +295,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(79, 76);
+            this.textBox2.Location = new System.Drawing.Point(75, 74);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(162, 20);
             this.textBox2.TabIndex = 3;
@@ -303,7 +303,7 @@ namespace SE_WindowsFormsApp
             // lbl_type
             // 
             this.lbl_type.AutoSize = true;
-            this.lbl_type.Location = new System.Drawing.Point(507, 105);
+            this.lbl_type.Location = new System.Drawing.Point(503, 103);
             this.lbl_type.Name = "lbl_type";
             this.lbl_type.Size = new System.Drawing.Size(31, 13);
             this.lbl_type.TabIndex = 6;
@@ -311,7 +311,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(544, 102);
+            this.textBox3.Location = new System.Drawing.Point(540, 100);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(140, 20);
             this.textBox3.TabIndex = 5;
@@ -319,7 +319,7 @@ namespace SE_WindowsFormsApp
             // lbl_supervisor
             // 
             this.lbl_supervisor.AutoSize = true;
-            this.lbl_supervisor.Location = new System.Drawing.Point(16, 105);
+            this.lbl_supervisor.Location = new System.Drawing.Point(12, 103);
             this.lbl_supervisor.Name = "lbl_supervisor";
             this.lbl_supervisor.Size = new System.Drawing.Size(57, 13);
             this.lbl_supervisor.TabIndex = 8;
@@ -327,7 +327,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(79, 102);
+            this.textBox4.Location = new System.Drawing.Point(75, 100);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(162, 20);
             this.textBox4.TabIndex = 7;
@@ -335,7 +335,7 @@ namespace SE_WindowsFormsApp
             // lbl_date
             // 
             this.lbl_date.AutoSize = true;
-            this.lbl_date.Location = new System.Drawing.Point(508, 53);
+            this.lbl_date.Location = new System.Drawing.Point(504, 51);
             this.lbl_date.Name = "lbl_date";
             this.lbl_date.Size = new System.Drawing.Size(30, 13);
             this.lbl_date.TabIndex = 10;
@@ -344,7 +344,7 @@ namespace SE_WindowsFormsApp
             // lbl_inspector
             // 
             this.lbl_inspector.AutoSize = true;
-            this.lbl_inspector.Location = new System.Drawing.Point(278, 105);
+            this.lbl_inspector.Location = new System.Drawing.Point(274, 103);
             this.lbl_inspector.Name = "lbl_inspector";
             this.lbl_inspector.Size = new System.Drawing.Size(51, 13);
             this.lbl_inspector.TabIndex = 16;
@@ -352,7 +352,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(335, 102);
+            this.textBox6.Location = new System.Drawing.Point(331, 100);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(165, 20);
             this.textBox6.TabIndex = 15;
@@ -360,7 +360,7 @@ namespace SE_WindowsFormsApp
             // lbl_job_description
             // 
             this.lbl_job_description.AutoSize = true;
-            this.lbl_job_description.Location = new System.Drawing.Point(249, 79);
+            this.lbl_job_description.Location = new System.Drawing.Point(245, 77);
             this.lbl_job_description.Name = "lbl_job_description";
             this.lbl_job_description.Size = new System.Drawing.Size(80, 13);
             this.lbl_job_description.TabIndex = 14;
@@ -368,7 +368,7 @@ namespace SE_WindowsFormsApp
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(335, 76);
+            this.textBox7.Location = new System.Drawing.Point(331, 74);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(349, 20);
             this.textBox7.TabIndex = 13;
@@ -376,7 +376,7 @@ namespace SE_WindowsFormsApp
             // lbl_completed_by
             // 
             this.lbl_completed_by.AutoSize = true;
-            this.lbl_completed_by.Location = new System.Drawing.Point(257, 53);
+            this.lbl_completed_by.Location = new System.Drawing.Point(253, 51);
             this.lbl_completed_by.Name = "lbl_completed_by";
             this.lbl_completed_by.Size = new System.Drawing.Size(72, 13);
             this.lbl_completed_by.TabIndex = 12;
@@ -384,21 +384,21 @@ namespace SE_WindowsFormsApp
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(335, 50);
+            this.textBox8.Location = new System.Drawing.Point(331, 48);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(165, 20);
             this.textBox8.TabIndex = 11;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(544, 50);
+            this.dateTimePicker1.Location = new System.Drawing.Point(540, 48);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
             this.dateTimePicker1.TabIndex = 17;
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(252, 382);
+            this.numericUpDown5.Location = new System.Drawing.Point(249, 368);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(38, 20);
             this.numericUpDown5.TabIndex = 32;
@@ -412,7 +412,7 @@ namespace SE_WindowsFormsApp
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Location = new System.Drawing.Point(15, 153);
+            this.tabControl1.Location = new System.Drawing.Point(12, 139);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(669, 269);
@@ -1826,12 +1826,13 @@ namespace SE_WindowsFormsApp
             // 
             // btn_save
             // 
-            this.btn_save.Location = new System.Drawing.Point(605, 428);
+            this.btn_save.BackColor = System.Drawing.Color.PaleGreen;
+            this.btn_save.Location = new System.Drawing.Point(605, 417);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(75, 23);
             this.btn_save.TabIndex = 37;
             this.btn_save.Text = "Save";
-            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.UseVisualStyleBackColor = false;
             this.btn_save.Click += new System.EventHandler(this.button1_Click);
             // 
             // label32
@@ -1849,7 +1850,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(19, 468);
+            this.label33.Location = new System.Drawing.Point(16, 454);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(111, 13);
             this.label33.TabIndex = 39;
@@ -1859,7 +1860,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label34.AutoSize = true;
             this.label34.BackColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(19, 488);
+            this.label34.Location = new System.Drawing.Point(16, 474);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(52, 13);
             this.label34.TabIndex = 40;
@@ -1869,7 +1870,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(19, 508);
+            this.label35.Location = new System.Drawing.Point(16, 494);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(68, 13);
             this.label35.TabIndex = 41;
@@ -1879,7 +1880,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label36.AutoSize = true;
             this.label36.BackColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(19, 528);
+            this.label36.Location = new System.Drawing.Point(16, 514);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(88, 13);
             this.label36.TabIndex = 42;
@@ -1889,7 +1890,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label37.AutoSize = true;
             this.label37.BackColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(19, 548);
+            this.label37.Location = new System.Drawing.Point(16, 534);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(135, 13);
             this.label37.TabIndex = 43;
@@ -1899,7 +1900,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label38.AutoSize = true;
             this.label38.BackColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(19, 568);
+            this.label38.Location = new System.Drawing.Point(16, 554);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(69, 13);
             this.label38.TabIndex = 44;
@@ -1909,7 +1910,7 @@ namespace SE_WindowsFormsApp
             // 
             this.label39.AutoSize = true;
             this.label39.BackColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(19, 588);
+            this.label39.Location = new System.Drawing.Point(16, 574);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(88, 13);
             this.label39.TabIndex = 45;
@@ -1919,7 +1920,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_A_total.AutoSize = true;
             this.lbl_A_total.BackColor = System.Drawing.Color.White;
-            this.lbl_A_total.Location = new System.Drawing.Point(202, 468);
+            this.lbl_A_total.Location = new System.Drawing.Point(199, 454);
             this.lbl_A_total.Name = "lbl_A_total";
             this.lbl_A_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_A_total.TabIndex = 46;
@@ -1929,7 +1930,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_B_total.AutoSize = true;
             this.lbl_B_total.BackColor = System.Drawing.Color.White;
-            this.lbl_B_total.Location = new System.Drawing.Point(202, 488);
+            this.lbl_B_total.Location = new System.Drawing.Point(199, 474);
             this.lbl_B_total.Name = "lbl_B_total";
             this.lbl_B_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_B_total.TabIndex = 47;
@@ -1939,7 +1940,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_C_total.AutoSize = true;
             this.lbl_C_total.BackColor = System.Drawing.Color.White;
-            this.lbl_C_total.Location = new System.Drawing.Point(202, 508);
+            this.lbl_C_total.Location = new System.Drawing.Point(199, 494);
             this.lbl_C_total.Name = "lbl_C_total";
             this.lbl_C_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_C_total.TabIndex = 48;
@@ -1949,7 +1950,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_D_total.AutoSize = true;
             this.lbl_D_total.BackColor = System.Drawing.Color.White;
-            this.lbl_D_total.Location = new System.Drawing.Point(202, 528);
+            this.lbl_D_total.Location = new System.Drawing.Point(199, 514);
             this.lbl_D_total.Name = "lbl_D_total";
             this.lbl_D_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_D_total.TabIndex = 49;
@@ -1959,7 +1960,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_E_total.AutoSize = true;
             this.lbl_E_total.BackColor = System.Drawing.Color.White;
-            this.lbl_E_total.Location = new System.Drawing.Point(202, 548);
+            this.lbl_E_total.Location = new System.Drawing.Point(199, 534);
             this.lbl_E_total.Name = "lbl_E_total";
             this.lbl_E_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_E_total.TabIndex = 50;
@@ -1969,7 +1970,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_F_total.AutoSize = true;
             this.lbl_F_total.BackColor = System.Drawing.Color.White;
-            this.lbl_F_total.Location = new System.Drawing.Point(202, 568);
+            this.lbl_F_total.Location = new System.Drawing.Point(199, 554);
             this.lbl_F_total.Name = "lbl_F_total";
             this.lbl_F_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_F_total.TabIndex = 51;
@@ -1979,7 +1980,7 @@ namespace SE_WindowsFormsApp
             // 
             this.lbl_G_total.AutoSize = true;
             this.lbl_G_total.BackColor = System.Drawing.Color.White;
-            this.lbl_G_total.Location = new System.Drawing.Point(202, 588);
+            this.lbl_G_total.Location = new System.Drawing.Point(199, 574);
             this.lbl_G_total.Name = "lbl_G_total";
             this.lbl_G_total.Size = new System.Drawing.Size(13, 13);
             this.lbl_G_total.TabIndex = 52;
@@ -1990,7 +1991,7 @@ namespace SE_WindowsFormsApp
             this.label40.AutoSize = true;
             this.label40.BackColor = System.Drawing.Color.White;
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(19, 614);
+            this.label40.Location = new System.Drawing.Point(16, 600);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(40, 17);
             this.label40.TabIndex = 53;
@@ -2001,7 +2002,7 @@ namespace SE_WindowsFormsApp
             this.lbl_total.AutoSize = true;
             this.lbl_total.BackColor = System.Drawing.Color.White;
             this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.Location = new System.Drawing.Point(202, 614);
+            this.lbl_total.Location = new System.Drawing.Point(199, 600);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(16, 17);
             this.lbl_total.TabIndex = 54;
@@ -2011,7 +2012,7 @@ namespace SE_WindowsFormsApp
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.label32);
-            this.panel1.Location = new System.Drawing.Point(15, 428);
+            this.panel1.Location = new System.Drawing.Point(12, 414);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(226, 215);
             this.panel1.TabIndex = 55;
@@ -2020,7 +2021,7 @@ namespace SE_WindowsFormsApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 718);
+            this.ClientSize = new System.Drawing.Size(690, 632);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.lbl_G_total);
@@ -2059,7 +2060,7 @@ namespace SE_WindowsFormsApp
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "SafteyAuditForm";
-            this.Text = "Form2";
+            this.Text = "Saftey Audit Form";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
