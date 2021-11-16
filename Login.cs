@@ -12,33 +12,54 @@ namespace SE_WindowsFormsApp
 {
     public partial class Login : Form
     {
+        private DBConnection dbConn;
+        
+        // Stores value of credentials in dataset to be checked
+        private static string DBusername;
+        private static string DBpassword;
+
         public Login()
         {
             InitializeComponent();
+
+            // Connect to database
+            dbConn = DBConnection.getInstanceOfDBConnection();
         }
 
         // Handles login
-         // TODO:
-         // - 3 tries before locked out
-         // - Password hint
-         // - Connect to Main_DB to use stored credentials
         private void login_button_Click(object sender, EventArgs e)
         {
-            // Correct credentials
-            if (tbx_username.Text == "u" && tbx_password.Text == "p")
+            try
             {
-                this.Hide();
-                SafteyAuditForm f2 = new SafteyAuditForm();
-                f2.Show();
+                // Create dataset and fill with requested Username and Password credentials from database
+                /* !!! Vulnerable to SQL injection, need to secure !!! */
+                DataSet credentials = dbConn.getLoginDataSet("SELECT * FROM users WHERE username= '" + Convert.ToString(tbx_username.Text) + "' AND password='" + Convert.ToString(tbx_password.Text) + "'");
+
+                // Get values of Username and Password from dataset and set them to a variable
+                DBusername = Convert.ToString(credentials.Tables[0].Rows[0]["username"]);
+                DBpassword = Convert.ToString(credentials.Tables[0].Rows[0]["password"]);
+
+                // Check credentials
+                // Correct credentials
+                if (tbx_username.Text == DBusername && tbx_password.Text == DBpassword)
+                {
+                    // Show the form once logged in
+                    this.Hide();
+                    SafteyAuditForm f2 = new SafteyAuditForm();
+                    f2.Show();
+                }
+                // Incorrect credentials
+                else
+                {
+                    lbl_login_error.Text = "Incorrect credentials provided";
+                    tbx_password.Text = ""; // Clear text in password box to renter
+                }
             }
-            // Incorrect credentials
-            else
+            catch // Catches error when user enters incorrect credentials and data cannot be found in database
             {
-                // Error message displayed in red under tbx_password in Login window
                 lbl_login_error.Text = "Incorrect credentials provided";
                 tbx_password.Text = ""; // Clear text in password box to renter
             }
-
         }
     }    
 }

@@ -16,6 +16,8 @@ namespace SE_WindowsFormsApp
         public SafteyAuditForm()
         {
             InitializeComponent();
+
+            // Create instance of database object
             dbConn = DBConnection.getInstanceOfDBConnection();
 
         }
@@ -46,6 +48,7 @@ namespace SE_WindowsFormsApp
             decimal G_count = numericUpDownG1.Value + numericUpDownG2.Value + numericUpDownG3.Value;
             lbl_G_total.Text = G_count.ToString();
 
+            // Total
             decimal total_count = A_count + B_count + C_count + D_count + E_count + F_count + G_count;
             lbl_total.Text = total_count.ToString();
         }
@@ -55,15 +58,18 @@ namespace SE_WindowsFormsApp
             // Update total intervention display
             total_interventions();
 
-            // SAVING FORM DATA TO DATABASE
             // SQL statement used to pass as a parameter
             string sql;
             sql = "INSERT INTO FormData ([site], [work_area], [supervisor], [completed_by], [job_description], [inspector], [date], [type]) VALUES (@site, @work_area, @supervisor, @completed_by, @job_description, @inspector, @date, @type)";
 
             // Get data from fields in SafteyAuditForm and save to database
-            dbConn.saveToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text);
+            dbConn.saveFormToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text);
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            // Update total intervention display
+            total_interventions();
+        }
     }
 }
-

@@ -56,7 +56,7 @@ namespace SE_WindowsFormsApp
             this.tbx_username.Size = new System.Drawing.Size(119, 20);
             this.tbx_username.TabIndex = 1;
             this.tbx_username.Tag = "";
-            this.tbx_username.Text = "u";
+            this.tbx_username.Text = "a";
             // 
             // tbx_password
             // 
@@ -65,7 +65,7 @@ namespace SE_WindowsFormsApp
             this.tbx_password.PasswordChar = '*';
             this.tbx_password.Size = new System.Drawing.Size(119, 20);
             this.tbx_password.TabIndex = 2;
-            this.tbx_password.Text = "p";
+            this.tbx_password.Text = "b";
             // 
             // lbl_login
             // 
@@ -109,7 +109,7 @@ namespace SE_WindowsFormsApp
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(239, 166);
+            this.ClientSize = new System.Drawing.Size(241, 147);
             this.Controls.Add(this.lbl_login_error);
             this.Controls.Add(this.lbl_assword);
             this.Controls.Add(this.lbl_sername);

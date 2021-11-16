@@ -222,6 +222,7 @@ namespace SE_WindowsFormsApp
             this.label40 = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_update = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -1827,11 +1828,11 @@ namespace SE_WindowsFormsApp
             // btn_save
             // 
             this.btn_save.BackColor = System.Drawing.Color.PaleGreen;
-            this.btn_save.Location = new System.Drawing.Point(605, 417);
+            this.btn_save.Location = new System.Drawing.Point(551, 414);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(75, 23);
+            this.btn_save.Size = new System.Drawing.Size(127, 38);
             this.btn_save.TabIndex = 37;
-            this.btn_save.Text = "Save";
+            this.btn_save.Text = "Save To Database";
             this.btn_save.UseVisualStyleBackColor = false;
             this.btn_save.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -2017,11 +2018,22 @@ namespace SE_WindowsFormsApp
             this.panel1.Size = new System.Drawing.Size(226, 215);
             this.panel1.TabIndex = 55;
             // 
+            // btn_update
+            // 
+            this.btn_update.Location = new System.Drawing.Point(244, 414);
+            this.btn_update.Name = "btn_update";
+            this.btn_update.Size = new System.Drawing.Size(127, 38);
+            this.btn_update.TabIndex = 56;
+            this.btn_update.Text = "Update Interventions";
+            this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // SafteyAuditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 632);
+            this.Controls.Add(this.btn_update);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.lbl_G_total);
@@ -2303,5 +2315,6 @@ namespace SE_WindowsFormsApp
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label lbl_total;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btn_update;
     }
 }
