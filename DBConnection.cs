@@ -70,7 +70,8 @@ namespace SE_WindowsFormsApp
                                  string job_description, 
                                  string inspector, 
                                  string date, 
-                                 string type)
+                                 string type,
+                                 string total_interventions)
         {
             using (SqlConnection connToDB = new SqlConnection(connStr))
             {
@@ -93,6 +94,7 @@ namespace SE_WindowsFormsApp
                     sqlCommand.Parameters.Add(new SqlParameter("inspector", inspector));
                     sqlCommand.Parameters.Add(new SqlParameter("date", date));
                     sqlCommand.Parameters.Add(new SqlParameter("type", type));
+                    sqlCommand.Parameters.Add(new SqlParameter("total_interventions", total_interventions));
 
                     // Execute the save command
                     sqlCommand.ExecuteNonQuery();

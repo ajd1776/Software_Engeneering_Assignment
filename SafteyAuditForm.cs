@@ -60,10 +60,10 @@ namespace SE_WindowsFormsApp
 
             // SQL statement used to pass as a parameter
             string sql;
-            sql = "INSERT INTO FormData ([site], [work_area], [supervisor], [completed_by], [job_description], [inspector], [date], [type]) VALUES (@site, @work_area, @supervisor, @completed_by, @job_description, @inspector, @date, @type)";
+            sql = "INSERT INTO FormData ([site], [work_area], [supervisor], [completed_by], [job_description], [inspector], [date], [type], [total_interventions]) VALUES (@site, @work_area, @supervisor, @completed_by, @job_description, @inspector, @date, @type, @total_interventions)";
 
             // Get data from fields in SafteyAuditForm and save to database
-            dbConn.saveFormToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text);
+            dbConn.saveFormToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text , lbl_total.Text);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
