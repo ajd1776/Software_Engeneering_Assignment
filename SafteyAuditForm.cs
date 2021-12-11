@@ -23,7 +23,7 @@ namespace SE_WindowsFormsApp
         }
 
         // Counts number of interventions per section and then displays the total
-        public void total_interventions()
+        public void totalInterventions()
         {
             decimal A_count = numericUpDownA1.Value + numericUpDownA2.Value + numericUpDownA3.Value +
                               numericUpDownA4.Value + numericUpDownA5.Value;
@@ -52,24 +52,50 @@ namespace SE_WindowsFormsApp
             decimal total_count = A_count + B_count + C_count + D_count + E_count + F_count + G_count;
             lbl_total.Text = total_count.ToString();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+  
+        private void btn_update_Click(object sender, EventArgs e)
         {
             // Update total intervention display
-            total_interventions();
+            totalInterventions();
+        }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        { 
+            // Update total intervention display
+            totalInterventions();
 
             // SQL statement used to pass as a parameter
             string sql;
             sql = "INSERT INTO FormData ([site], [work_area], [supervisor], [completed_by], [job_description], [inspector], [date], [type], [total_interventions]) VALUES (@site, @work_area, @supervisor, @completed_by, @job_description, @inspector, @date, @type, @total_interventions)";
 
             // Get data from fields in SafteyAuditForm and save to database
-            dbConn.saveFormToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text , lbl_total.Text);
+            dbConn.saveFormToDB(sql, tbx_site.Text, tbx_work_area.Text, tbx_supervisor.Text, tbx_completed_by.Text, tbx_job_description.Text, tbx_inspector.Text, Convert.ToString(dtp_date.Value), tbx_type.Text, lbl_total.Text);
+
+            lbl_save_to_db.Text = "Successfully saved form data to database";
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btn_show_form_Click(object sender, EventArgs e)
         {
-            // Update total intervention display
-            total_interventions();
+            // Close this window and open the form data viewer window
+            this.Hide();
+            FormDataViewer fdv = new FormDataViewer();
+            fdv.Show();
+        }
+
+        private void btn_clear_form_Click(object sender, EventArgs e)
+        {
+            // Clear form by creating a new one
+            this.Hide();
+            SafteyAuditForm f1 = new SafteyAuditForm();
+            f1.Show();
+        }
+
+        private void btn_rtn_login_Click(object sender, EventArgs e)
+        {
+            // Return to login screen
+            this.Hide();
+            Login l1 = new Login();
+            l1.Show();
         }
     }
 }

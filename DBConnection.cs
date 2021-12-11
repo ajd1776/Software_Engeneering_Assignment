@@ -39,7 +39,7 @@ namespace SE_WindowsFormsApp
 
 
         // Returns a data set built based on the query sent as parameter
-        public DataSet getLoginDataSet(string sqlQuery)
+        public DataSet getDataSet(string sqlQuery)
         {
             // Create an empty dataset
             DataSet dataSet = new DataSet();

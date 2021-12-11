@@ -223,6 +223,10 @@ namespace SE_WindowsFormsApp
             this.lbl_total = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_update = new System.Windows.Forms.Button();
+            this.btn_view_data = new System.Windows.Forms.Button();
+            this.lbl_save_to_db = new System.Windows.Forms.Label();
+            this.btn_clear_form = new System.Windows.Forms.Button();
+            this.btn_rtn_login = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -1828,13 +1832,13 @@ namespace SE_WindowsFormsApp
             // btn_save
             // 
             this.btn_save.BackColor = System.Drawing.Color.PaleGreen;
-            this.btn_save.Location = new System.Drawing.Point(551, 414);
+            this.btn_save.Location = new System.Drawing.Point(244, 501);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(127, 38);
             this.btn_save.TabIndex = 37;
             this.btn_save.Text = "Save To Database";
             this.btn_save.UseVisualStyleBackColor = false;
-            this.btn_save.Click += new System.EventHandler(this.button1_Click);
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
             // label32
             // 
@@ -2015,7 +2019,7 @@ namespace SE_WindowsFormsApp
             this.panel1.Controls.Add(this.label32);
             this.panel1.Location = new System.Drawing.Point(12, 414);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(226, 215);
+            this.panel1.Size = new System.Drawing.Size(226, 214);
             this.panel1.TabIndex = 55;
             // 
             // btn_update
@@ -2026,13 +2030,57 @@ namespace SE_WindowsFormsApp
             this.btn_update.TabIndex = 56;
             this.btn_update.Text = "Update Interventions";
             this.btn_update.UseVisualStyleBackColor = true;
-            this.btn_update.Click += new System.EventHandler(this.button1_Click_1);
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
+            // 
+            // btn_view_data
+            // 
+            this.btn_view_data.Location = new System.Drawing.Point(377, 414);
+            this.btn_view_data.Name = "btn_view_data";
+            this.btn_view_data.Size = new System.Drawing.Size(127, 38);
+            this.btn_view_data.TabIndex = 57;
+            this.btn_view_data.Text = "View data in database";
+            this.btn_view_data.UseVisualStyleBackColor = true;
+            this.btn_view_data.Click += new System.EventHandler(this.btn_show_form_Click);
+            // 
+            // lbl_save_to_db
+            // 
+            this.lbl_save_to_db.AutoSize = true;
+            this.lbl_save_to_db.Location = new System.Drawing.Point(377, 514);
+            this.lbl_save_to_db.Name = "lbl_save_to_db";
+            this.lbl_save_to_db.Size = new System.Drawing.Size(0, 13);
+            this.lbl_save_to_db.TabIndex = 58;
+            // 
+            // btn_clear_form
+            // 
+            this.btn_clear_form.BackColor = System.Drawing.Color.LightCoral;
+            this.btn_clear_form.Location = new System.Drawing.Point(244, 589);
+            this.btn_clear_form.Name = "btn_clear_form";
+            this.btn_clear_form.Size = new System.Drawing.Size(127, 38);
+            this.btn_clear_form.TabIndex = 59;
+            this.btn_clear_form.Text = "Clear form";
+            this.btn_clear_form.UseVisualStyleBackColor = false;
+            this.btn_clear_form.Click += new System.EventHandler(this.btn_clear_form_Click);
+            // 
+            // btn_rtn_login
+            // 
+            this.btn_rtn_login.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_rtn_login.Location = new System.Drawing.Point(510, 414);
+            this.btn_rtn_login.Name = "btn_rtn_login";
+            this.btn_rtn_login.Size = new System.Drawing.Size(127, 38);
+            this.btn_rtn_login.TabIndex = 60;
+            this.btn_rtn_login.Text = "Return to login";
+            this.btn_rtn_login.UseVisualStyleBackColor = true;
+            this.btn_rtn_login.Click += new System.EventHandler(this.btn_rtn_login_Click);
             // 
             // SafteyAuditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 632);
+            this.ClientSize = new System.Drawing.Size(690, 637);
+            this.Controls.Add(this.btn_rtn_login);
+            this.Controls.Add(this.btn_clear_form);
+            this.Controls.Add(this.lbl_save_to_db);
+            this.Controls.Add(this.btn_view_data);
             this.Controls.Add(this.btn_update);
             this.Controls.Add(this.lbl_total);
             this.Controls.Add(this.label40);
@@ -2316,5 +2364,9 @@ namespace SE_WindowsFormsApp
         private System.Windows.Forms.Label lbl_total;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_update;
+        private System.Windows.Forms.Button btn_view_data;
+        private System.Windows.Forms.Label lbl_save_to_db;
+        private System.Windows.Forms.Button btn_clear_form;
+        private System.Windows.Forms.Button btn_rtn_login;
     }
 }

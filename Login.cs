@@ -33,7 +33,7 @@ namespace SE_WindowsFormsApp
             {
                 // Create dataset and fill with requested Username and Password credentials from database
                 /* !!! Vulnerable to SQL injection, need to secure !!! */
-                DataSet credentials = dbConn.getLoginDataSet("SELECT * FROM users WHERE username= '" + Convert.ToString(tbx_username.Text) + "' AND password='" + Convert.ToString(tbx_password.Text) + "'");
+                DataSet credentials = dbConn.getDataSet("SELECT * FROM users WHERE username= '" + Convert.ToString(tbx_username.Text) + "' AND password='" + Convert.ToString(tbx_password.Text) + "'");
 
                 // Get values of Username and Password from dataset and set them to a variable
                 DBusername = Convert.ToString(credentials.Tables[0].Rows[0]["username"]);
